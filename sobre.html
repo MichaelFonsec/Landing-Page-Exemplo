@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/sobre.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <ul class="ul">
+            <a href="index.html"> Home </a>
+            <a href="sobre.html"> Sobre </a>
+            <a href="servicos.html"> Servicos </a>
+            <a href="contato.html" class="btn"> Contato </a>
+            <div class="close-icon" onclick="closeMenu()">
+              <i class="bi bi-x-circle-fill"></i>
+            </div>
+          </ul>
+          <div class="menu-icon" onclick="openMenu()">
+            <i class="bi bi-list"></i>
+          </div>
+        </nav>
+        <section class="banner">
+          <div class="banner-text">
+            <h1>Sobre</h1>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <section class="sobre">
+      <div class="container">
+        <div class="sobre-text">
+          <h3>Estamos no mercado há mais de 8 anos</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus sit accusantium fugit eius possimus iure quam debitis
+            natus impedit voluptas at quis exercitationem optio consequatur,
+            voluptates voluptatum dolorem eum quidem? Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Sunt praesentium qui veniam,
+            quisquam maxime est corrupti dolor at quidem magnam exercitationem
+            ipsum, illum a labore tempora impedit unde fuga reprehenderit? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Earum, amet
+            deleniti alias eos quo rem deserunt sunt blanditiis. Illo, mollitia!
+            Quidem voluptatibus ipsam, id sequi vero suscipit voluptate deserunt
+            accusantium.
+          </p>
+          <a href="contato.html" class="btn animate-btn">Entrar em Contato</a>
+        </div>
+        <div class="sobre-img">
+          <img src="./img/sobre.jpg" alt="sobre" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="social-media">
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-github"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <p>Desenvolvido por Michael Fonseca Martins</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
