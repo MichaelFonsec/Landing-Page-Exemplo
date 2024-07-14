@@ -172,6 +172,11 @@ nav .close-icon {
   width: 48%; /* Adjust width for better fit */
 }
 
+.contact-info .left-side{
+    height: 20%;
+}
+
+
 .contact-info .left-side {
   padding: 30px;
   background-color: #4f9cf9;
