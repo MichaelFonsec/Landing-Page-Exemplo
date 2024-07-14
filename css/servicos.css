@@ -16,15 +16,14 @@ body {
 .btn {
   background-color: #4f9cf9;
   color: #fff;
-  padding: 15px 20px;
+  padding: 1rem 1.25rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   cursor: pointer;
   display: inline-block;
   transition: 0.1s;
   animation: outline-animate 1s ease-out infinite;
 }
-
 .btn:hover {
   background-color: #3580db;
   color: #fff;
@@ -35,25 +34,24 @@ body {
     outline: 0px solid #4f9bf98a;
   }
   to {
-    outline: 15px solid #4f9bf900;
+    outline: 0.9375rem solid #4f9bf900;
   }
 }
 
 header {
-  background-image: url("../img/background-sobre1.jpg");
+  background-image: url("../img/background-servicos.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 section,
 footer {
-  padding: 54px 0;
+  padding: 3.375rem 0;
 }
 
 h3 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 p {
@@ -63,14 +61,14 @@ p {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 nav ul {
@@ -80,7 +78,7 @@ nav ul {
 
 nav ul a {
   color: #fff;
-  margin: 0 25px;
+  margin: 0 1.5625rem;
   text-transform: uppercase;
   font-size: 1rem;
   display: block;
@@ -90,7 +88,7 @@ nav ul a {
 nav ul a::after {
   content: "";
   background-color: #4f9cf9;
-  height: 3px;
+  height: 0.1875rem;
   width: 0%;
   display: block;
   margin: 0 auto;
@@ -103,14 +101,14 @@ nav ul a:hover:not(.btn):after {
 
 nav .menu-icon {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #fff;
   display: none;
 }
 
 nav .close-icon {
   display: none;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #fff;
 }
 
@@ -118,87 +116,143 @@ nav .close-icon {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 150px 20px;
+  padding: 9.375rem 1.25rem;
 }
 
 .banner .banner-text {
   max-width: 900px;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .banner .banner-text h1 {
-  font-size: 6rem;
-  color: #fff;
+    font-size: 6rem;
+    color: #fff;
 }
+
 
 .banner .banner-text p {
   font-size: 1.25rem;
   color: #ffffffb7;
   font-weight: lighter;
-  margin: 18px 0;
+  margin: 1.125rem 0;
 }
 
 .footer {
   background-color: #4f9cf9;
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .footer i {
   color: #4f9cf9;
-  font-size: 19px;
+  font-size: 1.1875rem;
   background-color: #fff;
-  padding: 10px;
-  margin: 3px;
-  border-radius: 10px;
+  padding: 0.625rem;
+  margin: 0.1875rem;
+  border-radius: 0.625rem;
 }
 
 .footer p {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: #fff;
 }
 
 .social-media {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
-.sobre .container {
+.services h3 {
+  text-align: center;
+}
+
+.services .container #subtitle {
+  text-align: center;
+}
+
+.services .rows-cards {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 1.25rem;
   flex-wrap: wrap;
 }
 
-.sobre .sobre-text {
+.services .card-item {
+  background-color: #d3e6fd;
   width: 100%;
-  max-width: 600px;
-  padding: 20px;
+  max-width: 21.875rem;
+  padding: 1.25rem;
+  border-radius: 0.875rem;
+  margin: 1.25rem;
+  transition: 0.3s;
 }
 
-.sobre .sobre-text p {
-  margin: 18px 0;
-  color: #000009a6;
+.services .card-item:hover {
+  background-color: #4f9cf9;
 }
 
-.sobre .sobre-img {
-  width: 100%;
-  max-width: 600px;
-  padding: 20px;
+.services .card-item img {
+  background-color: #4f9cf9;
+  border-radius: 0.875rem;
+  width: 4.375rem;
+  padding: 0.5625rem;
 }
 
-.sobre .sobre-img img {
-  width: 100%;
-  border-radius: 10px;
+.services .card-item:hover p {
+  color: #fff;
 }
 
-/* Responsive styles */
+.services .card-item p.service-name {
+  margin: 0.3125rem 0;
+  transition: 0.3s;
+}
+
+.services .card-item p.service-description {
+  transition: 0.3s;
+}
+
+.data-section {
+  background-color: #d3e6fd;
+}
+
+.data-section .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.data-section .data-item {
+  text-align: center;
+  margin: 0.9375rem;
+  color: #000000be;
+}
+
+.data-section .data-item img {
+  background-color: #4f9cf9;
+  border-radius: 0.875rem;
+  padding: 0.625rem;
+  margin-bottom: 0.9375rem;
+  width: 5rem;
+}
+
+.data-section .data-item p {
+  font-size: 1.125rem;
+}
+
+.data-section .data-item p strong {
+  font-size: 1.75rem;
+}
+
 @media (max-width: 1200px) {
-  h3 {
-    font-size: 3rem;
-  }
-
   .banner .banner-text h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
+  }
+  
+  .banner .banner-text p {
+    font-size: 1.125rem;
+  }
+  
+  .services .card-item {
+    width: calc(50% - 2.5rem);
   }
 }
 
@@ -222,7 +276,7 @@ nav .close-icon {
   }
 
   nav ul a {
-    margin: 10px 0;
+    margin: 0.625rem 0;
     font-size: 1.25rem;
   }
 
@@ -233,12 +287,12 @@ nav .close-icon {
   nav .close-icon {
     display: block;
     position: absolute;
-    top: 46px;
-    right: 50px;
+    top: 2.875rem;
+    right: 3.125rem;
   }
 
   .banner {
-    padding: 100px 20px;
+    padding: 6.25rem 1.25rem;
   }
 
   .banner .banner-text h1 {
@@ -257,29 +311,26 @@ nav .close-icon {
   .sobre .sobre-text,
   .sobre .sobre-img {
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
+  }
+
+  .services .card-item {
+    width: 100%;
+    margin: 1rem 0;
   }
 }
 
-@media (max-width: 480px) {
-  h3 {
-    font-size: 2.5rem;
-  }
-
+@media (max-width: 600px) {
   .banner .banner-text h1 {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
 
   .banner .banner-text p {
-    font-size: 0.9rem;
+    font-size: 0.875rem;
   }
 
-  .btn {
-    padding: 10px 15px;
-    font-size: 0.9rem;
-  }
-
-  nav ul a {
-    font-size: 1rem;
+  .services .card-item {
+    width: 100%;
+    max-width: 18.75rem;
   }
 }

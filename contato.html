@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/contato.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <ul class="ul">
+            <a href="index.html"> Home </a>
+            <a href="sobre.html"> Sobre </a>
+            <a href="servicos.html"> Servicos </a>
+            <a href="contato.html" class="btn"> Contato </a>
+            <div class="close-icon" onclick="closeMenu()">
+              <i class="bi bi-x-circle-fill"></i>
+            </div>
+          </ul>
+          <div class="menu-icon" onclick="openMenu()">
+            <i class="bi bi-list"></i>
+          </div>
+        </nav>
+        <section class="banner">
+          <div class="banner-text">
+            <h1>Contate-nos</h1>
+            <p>
+              Entre em contato conosco para uma resposta rápida e impulsionar
+              seu negócio!
+            </p>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <section class="contato">
+      <div class="container">
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1537.3661556655586!2d-46.683847656351986!3d-23.586626447318437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5744e0ebff5b%3A0x769bf4a32f914782!2sGoogle%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1720921127508!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="450"
+            style="border: 1px solid #4f9cf9; border-radius: 5px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact-info">
+          <div class="left-side">
+             <div class="information">
+              <i class="bi bi-geo-alt-fill"></i>
+              <p> Via de Pedestre Forte de Itapema, 123 Jardim Previdência São Paulo - SP, 01234-567, Brasil </p>
+              </div>
+              <div class="information">
+                  <i class="bi bi-envelope-fill"></i>
+                  <p>contato@techsolutions.com</p>
+              </div>
+              <div class="information">
+                  <i class="bi bi-telephone-fill"></i>
+                  <p>+55 13 3483-9144</p>
+              </div>
+              <div class="information">
+                  <i class="bi bi-phone-fill"></i>
+                  <p>+55 11 98765-4321</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <form action="">
+              <input type="text" name="name" placeholder="Nome" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <input type="text" name="subject" placeholder="Assunto" required />
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Mensagem"
+                required
+              ></textarea>
+              <button class="btn">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="social-media">
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-github"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <p>Desenvolvido por Michael Fonseca Martins</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
